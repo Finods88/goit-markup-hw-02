@@ -67,7 +67,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-navy-blue);
@@ -86,6 +85,7 @@ body {
 }
 
 .address-link {
+   font-style: normal
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -102,7 +102,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.7;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
@@ -131,6 +131,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.doing-title {
+   text-align: center;
 }
 
 /* 
@@ -163,7 +167,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-cloud);
