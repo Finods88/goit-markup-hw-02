@@ -153,7 +153,12 @@ body {
   color: var(--color-slate);
 }
 
+/* 
+         DOING
+*/
+
 .doing-title {
+  color: var(--color-navy-blue);
   text-align: center;
 }
 
@@ -169,6 +174,7 @@ body {
 }
 
 .team-title {
+  color: var(--color-navy-blue);
   text-align: center;
 }
 
@@ -198,7 +204,7 @@ body {
 }
 
 .footer-logo-end {
-  color: var(--color-white);
+  color: var(--color-cloud;
 }
 
 .footer-text {
