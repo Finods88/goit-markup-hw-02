@@ -18,7 +18,7 @@
 
 body {
   font-family: var(--primary-font);
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 
@@ -70,11 +70,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-navy-blue);
+  color: var(--color-iris);
 }
 
-.header-nav-logo-top {
-  color: var(--color-iris);
+.header-nav-logo-end {
+  color: var(--color-navy-blue);
 }
 
 .header-nav-link {
@@ -85,12 +85,25 @@ body {
   color: var(--color-navy-blue);
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--color-ocean);
+}
+
+.address {
+  font-style: normal;
+}
+
 .address-link {
   color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-ocean);
 }
 
 /* 
@@ -110,13 +123,19 @@ body {
 }
 
 .hero-btn {
-  font-family: Roboto;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: var(--color-ocean);
 }
 
 /* 
@@ -145,6 +164,10 @@ body {
   background-color: var(--color-cloud);
 }
 
+.team-list {
+  background-color: var(--color-white);
+}
+
 .team-title {
   text-align: center;
 }
@@ -154,6 +177,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 
 /* 
@@ -164,17 +188,17 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-cloud);
+  color: var(--color-iris);
 }
 
-.footer-logo-top {
-  color: var(--color-iris);
+.footer-logo-end {
+  color: var(--color-white);
 }
 
 .footer-text {
@@ -188,7 +212,7 @@ body {
                            Portfolio
 */
 .card-btn {
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
