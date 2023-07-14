@@ -19,6 +19,7 @@
 body {
   font-family: var(--primary-font);
   color: var(--color-navy-blue);
+  background-color: var(--color-white);
 }
 
 .title-top {
@@ -45,7 +46,7 @@ body {
   text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -57,13 +58,13 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* 
         HEADER
 */
 .header-nav-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -85,11 +86,11 @@ body {
 }
 
 .address-link {
-   font-style: normal
+  color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+  font-style: normal;
 }
 
 /* 
@@ -134,7 +135,7 @@ body {
 }
 
 .doing-title {
-   text-align: center;
+  text-align: center;
 }
 
 /* 
