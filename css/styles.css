@@ -28,7 +28,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-decoration: none;
-  text-transform: capitalize;
 }
 
 .title {
@@ -55,7 +54,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-iris);
 }
 
@@ -103,7 +101,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
@@ -145,29 +142,30 @@ body {
 
 .doing-title {
   color: var(--color-navy-blue);
-  text-align: center;
 }
 
 /* 
        TEAM
 */
 .team {
-  background-color: var(--color-cloud);
+  background-color: #ffffff;
 }
 
 .team-list {
-  background-color: var(--color-white);
+  background-color: #ffffff;
 }
 
 .team-title {
   color: var(--color-navy-blue);
-  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -185,7 +183,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-iris);
 }
 
