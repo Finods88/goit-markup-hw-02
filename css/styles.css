@@ -30,6 +30,10 @@ body {
   text-decoration: none;
 }
 
+.address {
+  font-style: normal;
+}
+
 .title {
   font-weight: 500;
   font-size: 20px;
